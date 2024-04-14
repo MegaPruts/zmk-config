@@ -85,7 +85,7 @@
 
             &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans         &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9   &kp RBKT   &kp TILDE
             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans         &kp NUMBER_4      &kp NUMBER_5   &kp NUMBER_6   &kp BSLH   &kp GRAVE
-            &trans     &trans     &trans     &trans     &trans         &kp HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION      &kp NUMBER_2   &kp NUMBER_3   &kp PIPE   &trans
+            &trans     &trans     &trans     &trans     &trans         &kp HID_USAGE_KEY_KEYBOARD_1_AND_EXCLAMATION      &kp (0x1F)   &kp NUMBER_3   &kp PIPE   &trans
                                              &trans     &trans         &trans     &trans
 
             >;
