@@ -49,20 +49,12 @@
             >;
         };
 
-        //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ INSERT   │  1       │  2       │  3       │          │   │ HOME     │ PAGE DN  │ PAGE UP  │ END      │  :       │
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ DELETE   │  4       │  5       │  6       │          │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
-        //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ CAPS     │  7       │  8       │  9       │  0       │   │          │          │          │          │          │
-        //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-        //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
         right_layer {
             bindings = <
 
-            &kp INS    &kp N1     &kp N2     &kp N3     &trans         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp COLON
-            &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
-           &caps_word  &kp N7     &kp N8     &kp N9     &kp N0         &trans     &trans     &trans     &trans     &trans
+            &kp INS    &none     &none     &none     &trans         &none   &none  &none  &none    &kp COLON
+            &kp DEL    &none     &none     &none     &trans         &none   &none  &none  &none    &kp SEMI
+           &caps_word  &none     &none     &none     &none         &trans     &trans     &trans     &trans     &trans
                                              &trans     &kp ESC        &trans     &trans
             >;
         };
@@ -83,10 +75,10 @@
 //                                             &trans     &trans         &trans     &trans
 
 
-            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans         &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9   &kp RBKT   &kp TILDE
-            LHRM(LEFT,     DOWN,      UP,        RIGHT) &trans         RHRM(NUMBER_4,        NUMBER_5,      NUMBER_6,      BSLH)  &none
-            &trans     &trans     &trans     &trans     &trans         &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp PIPE   &trans
-                                             &trans     &trans         &kp NUMBER_0     &trans
+            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &none         &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9   &none   &none
+            LHRM(LEFT,     DOWN,      UP,        RIGHT) &none         RHRM(NUMBER_4,        NUMBER_5,      NUMBER_6,      BSLH)  &none
+            &none     &none    &none     &none     &none              &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &none   &none
+                                             &trans     &trans         &kp NUMBER_0     &none
 
             >;
         };
