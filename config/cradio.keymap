@@ -84,7 +84,7 @@
 
 
             &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans         &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9   &kp RBKT   &kp TILDE
-            LHRM(LEFT,     DOWN,      UP,        RIGHT) &trans         RHRM(NUMBER_4,        NUMBER_5,      NUMBER_6       BSLH)  &none
+            LHRM(LEFT,     DOWN,      UP,        RIGHT) &trans         RHRM(NUMBER_4,        NUMBER_5,      NUMBER_6,      BSLH)  &none
             &trans     &trans     &trans     &trans     &trans         &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp PIPE   &trans
                                              &trans     &trans         &kp NUMBER_0     &trans
 
