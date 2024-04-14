@@ -83,9 +83,9 @@
 //                                             &trans     &trans         &trans     &trans
 
 
-            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans         &kp 7      &kp 8   &kp 9   &kp RBKT   &kp TILDE
-            &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans         &kp 4      &kp 5   &kp 6   &kp BSLH   &kp GRAVE
-            &trans     &trans     &trans     &trans     &trans         &kp 1      &kp 2   &kp 3   &kp PIPE   &trans
+            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans         &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9   &kp RBKT   &kp TILDE
+            &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans         &kp NUMBER_4      &kp NUMBER_5   &kp NUMBER_6   &kp BSLH   &kp GRAVE
+            &trans     &trans     &trans     &trans     &trans         &kp NUMBER_1      &kp NUMBER_2   &kp NUMBER_3   &kp PIPE   &trans
                                              &trans     &trans         &trans     &trans
 
             >;
