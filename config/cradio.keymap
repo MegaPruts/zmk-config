@@ -86,7 +86,7 @@
             &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans         &kp 7      &kp 8   &kp 9   &kp RBKT   &kp TILDE
             &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans         &kp 4      &kp 5   &kp 6   &kp BSLH   &kp GRAVE
             &trans     &trans     &trans     &trans     &trans         &kp 1      &kp 2   &kp 3   &kp PIPE   &trans
-                                             &trans     &trans         &kp 0      &kp ,
+                                             &trans     &trans         &kp &trans &kp ,
 
             >;
         };
