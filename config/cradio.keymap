@@ -53,7 +53,7 @@
             bindings = <
 
             &kp INS    &none     &none     &none     &trans         &none   &none  &none  &none    &kp COLON
-            &kp DEL    &none     &none     &none     &trans         &none   &none  &none  &MINUS    &kp SEMI
+            &kp DEL    &none     &none     &none     &trans         &none   &none  &none  &kp MINUS    &kp SEMI
            &caps_word  &none     &none     &none     &none         &trans     &trans     &EQUAL     &trans     &trans
                                              &trans     &kp ESC        &trans     &trans
             >;
