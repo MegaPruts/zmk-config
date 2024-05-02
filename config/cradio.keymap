@@ -62,11 +62,11 @@
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│          │  [       │  {       │  }       │          │   │  ^       │  (       │  )       │  ]       │  ~       │
+        //│          │  [       │  {       │  }       │          │   │  7 &     │  8 *     │  9 (     │         │         │
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  !       │  @       │  #       │  $       │  %       │   │  *       │  -       │  =       │  \       │  `       │
+        //│  !       │  @       │  #       │  $       │  %       │   │  4 %     │  5 %     │  6 ^     │         │  `       │
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │          │          │   │  &       │  _       │  +       │  │       │          │
+        //│          │          │          │          │          │   │  1 !     │  2 @     │  3 #     │         │          │
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
 //            &trans     &kp LBKT   &kp LBRC   &kp RBRC   &trans         &kp CARET  &kp LPAR   &kp RPAR   &kp RBKT   &kp TILDE
@@ -75,9 +75,9 @@
 //                                             &trans     &trans         &trans     &trans
 
 
-            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp (0x35)         &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9   &kp (0x2F)   &kp (0x30)
-            LHRM(LEFT,     DOWN,      UP,        RIGHT) &none         RHRM(NUMBER_4,        NUMBER_5,      NUMBER_6,      BSLH)  &kp (0x33)
-            &none     &none    &none     &none     &none              &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &none   &kp (0x38)
+            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp (0x35)         &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9  &kp MINUS &kp EQUAL // &kp (0x2F) [  &kp (0x30) ]
+            LHRM(LEFT,     DOWN,      UP,        RIGHT) &none         RHRM(NUMBER_4,        NUMBER_5,      NUMBER_6,      LBKT)  &kp RBKT     // &kp (0x33)
+            &none     &none    &none     &none     &none              &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp BSLH   &kp (0x38)
                                              &trans     &trans         &kp NUMBER_0     &none
 
             >;
