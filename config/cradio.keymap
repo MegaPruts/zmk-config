@@ -75,10 +75,10 @@
 //                                             &trans     &trans         &trans     &trans
 
 
-            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp (0x35)         &kp NUMBER_7      &kp NUMBER_8   &kp NUMBER_9  &kp MINUS &kp EQUAL // &kp (0x2F) [  &kp (0x30) ]
-            LHRM(LEFT,     DOWN,      UP,        RIGHT) &none         RHRM(NUMBER_4,        NUMBER_5,      NUMBER_6,      LBKT)  &kp RBKT     // &kp (0x33)
-            &none     &none    &none     &none     &none              &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp BSLH   &kp (0x38)
-                                             &trans     &trans         &kp NUMBER_0     &none
+            &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp (0x35)    &kp MINUS    &kp NUMBER_7      &kp NUMBER_8    &kp NUMBER_9   &kp EQUAL     // &kp (0x2F) [  &kp (0x30) ]  -=_+ []{}
+            LHRM(LEFT,     DOWN,      UP,        RIGHT) &none         RHRM(LBKT,       NUMBER_4,         NUMBER_5,       NUMBER_6)  &kp RBKT     // &kp (0x33)
+            &none     &none    &none     &none     &none              &kp BSLH     &kp NUMBER_1       &kp NUMBER_2   &kp NUMBER_3   &kp (0x38)
+                                             &trans     &trans        &none        &kp NUMBER_0 
 
             >;
         };
@@ -86,17 +86,17 @@
         tri_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-        //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
+        //│          │          │          │          │          │   │  RESET   │          │          │          │          │
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
+        //│PROFILE 4 │PROFILE 3 │PROFILE 2 │PROFILE 1 │PROFILE 0 │   │          │ CLEAR BT │BOOTLOADER│          │          │
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
+        //│          │          │          │          │          │   │          │          │          │          │          │
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
-           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &trans     &trans    &sys_reset
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &trans     &trans     &trans    &bootloader
-            &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans
-                                             &trans     &trans         &trans     &trans
+    &trans       &trans       &trans       &trans       &trans         &sys_reset &trans     &trans     &trans      &trans    
+    &bt BT_SEL 5 &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1   &trans     &bt BT_CLR &bootloader &trans     &trans    
+    &trans       &trans       &trans       &trans       &trans         &trans     &trans     &trans      &trans     &trans
+                                           &trans       &trans         &trans     &trans
             >;
         };
     };
