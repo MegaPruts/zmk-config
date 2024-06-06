@@ -45,7 +45,7 @@
             &kp Q      &kp W      &kp E      &kp R      &kp T          &kp Y      &kp U      &kp I      &kp O      &kp P
             LHRM(A,        S,         D,         F)     &kp G          &kp H      RHRM(J,        K,         L,        SQT)
             &ht LCTRL Z &kp X      &kp C      &kp V      &kp B          &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
-                                            &lt 2 TAB   &kp ENTER     &kp SPACE  &lt 1 BSPC
+                                            &lt 2    &kp ENTER     &kp SPACE  &lt 1 TAB
             >;
         };
 
@@ -77,7 +77,7 @@
 
             &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &kp (0x35)    &kp MINUS    &kp NUMBER_7      &kp NUMBER_8    &kp NUMBER_9   &kp EQUAL     // &kp (0x2F) [  &kp (0x30) ]  -=_+ []{}
             LHRM(LEFT,     DOWN,      UP,        RIGHT) &none         RHRM(LBKT,       NUMBER_4,         NUMBER_5,       NUMBER_6)  &kp RBKT     // &kp (0x33)
-            &none     &none    &none     &none     &none              &kp BSLH     &kp NUMBER_1       &kp NUMBER_2   &kp NUMBER_3   &kp (0x38)
+            BSPC    &none  DEL     &none    &none              &kp BSLH     &kp NUMBER_1       &kp NUMBER_2   &kp NUMBER_3   &kp (0x38)
                                              &trans     &trans        &kp NUMBER_0 &trans        
 
             >;
